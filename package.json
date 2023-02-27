@@ -1,0 +1,23 @@
+{
+  "name": "wp-bot",
+  "version": "1.0.0",
+  "description": "wp-bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": ">= 6.9.4",
+    "npm": ">= 4.4.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^2.0.20",
+    "openai": "^3.1.0",
+    "qrcode-terminal": "^0.12.0",
+    "whatsapp-web.js": "^1.19.4"
+  }
+}
